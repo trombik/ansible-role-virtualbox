@@ -1,3 +1,4 @@
+---
 __virtualbox_user: vboxusers
 __virtualbox_group: vboxusers
 __virtualbox_kernel_modules:

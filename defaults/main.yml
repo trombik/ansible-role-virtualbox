@@ -1,3 +1,4 @@
+---
 virtualbox_user: "{{ __virtualbox_user }}"
 virtualbox_group: "{{ __virtualbox_group }}"
 virtualbox_kernel_modules: "{{ __virtualbox_kernel_modules|default('') }}"
