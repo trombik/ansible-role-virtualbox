@@ -1,3 +1,12 @@
+## Release 1.0.3
+
+* caf3440 bugfix: QA
+* efcccc5 bugfix: remove deprecated always_run
+* 0ad5bf7 bugfix: bump supported platform versions
+* 4376092 bugfix: QA
+* 7978623 [bugfix] fix third party repo, bump rubocop and QA (#17)
+* 4c428c3 [bugfix] fix thirdparty repo and bump rubocop (#16)
+
 ## Release 1.0.2
 
 * b52be8b move OS specific tasks to configure-*
