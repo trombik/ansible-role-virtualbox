@@ -131,8 +131,6 @@ class Vagrant
     @err.split("\n").to_a
   end
 
-  attr_reader :status
-
   def success?
     return false if @success.nil?
     return false if @status.is_a?(Exception)
