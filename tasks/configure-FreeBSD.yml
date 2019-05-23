@@ -5,7 +5,7 @@
   register: register_virtualbox_kldstat
   changed_when: false
   ignore_errors: true
-  always_run: yes
+  check_mode: no
 
 - name: Load kernel modules
   command: kldload "{{ item.item.kname }}"
